@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset = "utf-8"/>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <link rel="stylesheet" href="LHJ.css" type="text/css">
+          <title>Introduce Me!</title>
+          <script type="text/javascript" src="LHJ.js"></script>
+     </head>
+     <body>
+          <header>
+               <div id="main">
+                    <a href="LHJ.html"><img id="title_img" src="C:\Users\ASUS\Desktop\자기소개 페이지\제목.png" alt="Home"></a>
+               </div>
+          </header>
+               <div class="topnav">
+                    <a href="SCHOOL.html">SCHOOL</a>
+                    <a href="PERSONALITY.html">PERSONALITY</a>
+                    <a href="ABILITY.html">ABILITY</a>
+                    <a href="VISION.html">VISION</a>
+                    <a href="D-DAY.html" style="background-color: #64d867;">D-DAY</a>
+               </div>
+          <div id="container">
+               <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#" onclick="visible('day1')">Academic Calendar</a>
+                    <a href="#" onclick="visible('day2')">Time Table</a>
+               </div>
+               <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; D-DAY</span>
+               
+               <div id="day1" style="display: none;">
+                    <h1>Academic Calendar</h1>
+                    <h2>Second Semester</h2>
+                    <img src="학사일정.PNG" alt="학사일정">
+                    
+                    <h3>개강 <span id="beginclass"></span></h3>
+                    <h3>추석 <span id="nationalholiday"></span></h3>
+                    <h3>중간고사 <span id="firstexam"></span></h3>
+                    <h3>종합작품전 <span id="exhibition"></span></h3>
+                    <h3>기말고사 <span id="secondexam"></span></h3>
+                    <h3>겨울방학 <span id="wintervacation"></span></h3>
+               </div>
+               <div id="day2" style="display: none;">
+                   <h1>Time Table</h1>
+                    <img src="시간표.PNG" style="width: 1460px; height: 669px;">
+               </div>
+          </div>
+     </body>
+</html>
